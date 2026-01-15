@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support - RaffleGo</title>
+    <meta name="description" content="Get help with RaffleGo. Contact our support team for assistance.">
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        :root {
+            --primary: #6366f1;
+            --primary-dark: #4f46e5;
+            --background: #ffffff;
+            --surface: #f8fafc;
+            --text: #1e293b;
+            --text-muted: #64748b;
+            --border: #e2e8f0;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: var(--background);
+            color: var(--text);
+            line-height: 1.7;
+        }
+        
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border);
+            z-index: 100;
+            padding: 1rem 2rem;
+        }
+        
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary);
+            text-decoration: none;
+        }
+        
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+        }
+        
+        .nav-links a {
+            color: var(--text-muted);
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        .nav-links a:hover {
+            color: var(--primary);
+        }
+        
+        .content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 8rem 2rem 4rem;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+        
+        .subtitle {
+            text-align: center;
+            color: var(--text-muted);
+            margin-bottom: 3rem;
+            font-size: 1.1rem;
+        }
+        
+        .contact-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 2rem;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        
+        .contact-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        
+        .contact-card h2 {
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .contact-card p {
+            color: var(--text-muted);
+            margin-bottom: 1rem;
+        }
+        
+        .contact-link {
+            display: inline-block;
+            background: var(--primary);
+            color: white;
+            padding: 0.75rem 2rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background 0.2s;
+        }
+        
+        .contact-link:hover {
+            background: var(--primary-dark);
+        }
+        
+        .faq-section {
+            margin-top: 3rem;
+        }
+        
+        .faq-section h2 {
+            font-size: 1.75rem;
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+        
+        .faq-item {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .faq-item h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.75rem;
+            color: var(--text);
+        }
+        
+        .faq-item p {
+            color: var(--text-muted);
+            margin: 0;
+        }
+        
+        .info-section {
+            margin-top: 3rem;
+            padding: 2rem;
+            background: linear-gradient(135deg, #e0e7ff 0%, #f8fafc 100%);
+            border-radius: 16px;
+            text-align: center;
+        }
+        
+        .info-section h3 {
+            font-size: 1.25rem;
+            margin-bottom: 1rem;
+        }
+        
+        .info-section p {
+            color: var(--text-muted);
+        }
+        
+        footer {
+            background: var(--text);
+            color: #94a3b8;
+            padding: 2rem;
+            text-align: center;
+            margin-top: 4rem;
+        }
+        
+        footer a {
+            color: #cbd5e1;
+        }
+        
+        @media (max-width: 768px) {
+            h1 { font-size: 2rem; }
+            .nav-links { display: none; }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <a href="/" class="logo">🎟️ RaffleGo</a>
+            <ul class="nav-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="/privacy.html">Privacy</a></li>
+                <li><a href="/terms.html">Terms</a></li>
+                <li><a href="/support.html">Support</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="content">
+        <h1>Support</h1>
+        <p class="subtitle">We're here to help. Get in touch with our support team.</p>
+
+        <div class="contact-card">
+            <div class="contact-icon">📧</div>
+            <h2>Email Support</h2>
+            <p>Send us an email and we'll get back to you within 24 hours.</p>
+            <a href="mailto:support@rafflego.co" class="contact-link">support@rafflego.co</a>
+        </div>
+
+        <div class="faq-section">
+            <h2>Frequently Asked Questions</h2>
+            
+            <div class="faq-item">
+                <h3>How do I enter a raffle?</h3>
+                <p>Browse available raffles in the app, select one you're interested in, and purchase tickets using your wallet balance. The more tickets you buy, the better your chances of winning.</p>
+            </div>
+            
+            <div class="faq-item">
+                <h3>How are winners selected?</h3>
+                <p>Winners are selected using a provably fair system that combines randomness from two independent sources: the NIST Randomness Beacon and the drand League of Entropy network. Every draw can be independently verified.</p>
+            </div>
+            
+            <div class="faq-item">
+                <h3>How do I add funds to my wallet?</h3>
+                <p>Go to the Wallet tab in the app and tap "Add Funds." You can add money using a credit/debit card or cryptocurrency.</p>
+            </div>
+            
+            <div class="faq-item">
+                <h3>What happens if I win?</h3>
+                <p>You'll receive an instant notification when you win. The organizer will contact you to arrange prize delivery. Funds are held in escrow until you confirm receipt of your prize.</p>
+            </div>
+            
+            <div class="faq-item">
+                <h3>Can I get a refund on tickets?</h3>
+                <p>Ticket purchases are generally non-refundable once a raffle begins. However, if a raffle is cancelled, you'll receive a full refund to your wallet.</p>
+            </div>
+            
+            <div class="faq-item">
+                <h3>How do I become an organizer?</h3>
+                <p>To create raffles, you need to complete KYC (Know Your Customer) verification. Go to Profile → Become an Organizer and follow the verification steps.</p>
+            </div>
+            
+            <div class="faq-item">
+                <h3>Is RaffleGo available in my country?</h3>
+                <p>RaffleGo is available in most countries. However, some regions may have restrictions due to local regulations. Check the app for availability in your area.</p>
+            </div>
+        </div>
+
+        <div class="info-section">
+            <h3>Response Time</h3>
+            <p>We typically respond to all inquiries within 24 hours during business days. For urgent matters, please include "URGENT" in your email subject line.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 RaffleGo. All rights reserved.</p>
+        <p><a href="/">Home</a> · <a href="/privacy.html">Privacy</a> · <a href="/terms.html">Terms</a> · <a href="/support.html">Support</a></p>
+    </footer>
+</body>
+</html>
