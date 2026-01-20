@@ -1,0 +1,135 @@
+/* Legal Pages Styles */
+
+.legal-page {
+    padding: 120px 0 80px;
+    min-height: 100vh;
+}
+
+.legal-header {
+    text-align: center;
+    margin-bottom: 60px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid var(--border);
+}
+
+.legal-header h1 {
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: var(--foreground);
+}
+
+.legal-date {
+    font-size: 14px;
+    color: var(--muted);
+}
+
+.legal-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.legal-section {
+    margin-bottom: 48px;
+}
+
+.legal-section h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--foreground);
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid var(--primary);
+}
+
+.legal-section h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--foreground);
+    margin: 24px 0 12px;
+}
+
+.legal-section p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: var(--muted);
+    margin-bottom: 16px;
+}
+
+.legal-section ul,
+.legal-section ol {
+    margin: 16px 0;
+    padding-left: 24px;
+}
+
+.legal-section li {
+    font-size: 16px;
+    line-height: 1.8;
+    color: var(--muted);
+    margin-bottom: 8px;
+}
+
+.legal-section li strong {
+    color: var(--foreground);
+}
+
+.legal-section a {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+.legal-section a:hover {
+    text-decoration: underline;
+}
+
+.legal-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 24px 0;
+}
+
+.legal-table th,
+.legal-table td {
+    padding: 12px 16px;
+    text-align: left;
+    border: 1px solid var(--border);
+}
+
+.legal-table th {
+    background: var(--surface);
+    font-weight: 600;
+    color: var(--foreground);
+}
+
+.legal-table td {
+    color: var(--muted);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .legal-page {
+        padding: 100px 0 60px;
+    }
+    
+    .legal-header h1 {
+        font-size: 32px;
+    }
+    
+    .legal-section h2 {
+        font-size: 20px;
+    }
+    
+    .legal-section p,
+    .legal-section li {
+        font-size: 15px;
+    }
+    
+    .legal-table {
+        font-size: 14px;
+    }
+    
+    .legal-table th,
+    .legal-table td {
+        padding: 8px 12px;
+    }
+}
